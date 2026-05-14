@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>敦煌 - 首页</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-container">
+    <header class="page-header">
+      <nav>
+        <a href="index.html" class="nav-items">引导页</a>
+        <a href="home.html" class="nav-items active">首页</a>
+        <a href="article.html" class="nav-items">莫高窟</a>
+        <a href="article.html" class="nav-items">飞天壁画</a>
+        <a href="article.html" class="nav-items">关于</a>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="hero-section">
+        <h1>敦煌</h1>
+        <p>丝绸之路上的璀璨明珠，千年文明的见证者。在这里，大漠孤烟与壁画艺术交相辉映，诉说着东西方文明交融的传奇故事。</p>
+      </section>
+
+      <section class="feature-grid">
+        <div class="feature-card" onclick="location.href='article.html'">
+          <h3><i class="fa-solid fa-landmark"></i> 莫高窟</h3>
+          <p>世界文化遗产，被誉为"东方艺术宝库"。现存洞窟735个，壁画4.5万平方米，彩塑2400余尊，是世界上现存规模最大、内容最丰富的佛教艺术地。</p>
+        </div>
+        <div class="feature-card" onclick="location.href='article.html'">
+          <h3><i class="fa-solid fa-palette"></i> 飞天壁画</h3>
+          <p>敦煌艺术的精华所在，展现了古代艺术家们超凡的想象力。飞天形象飘逸灵动，线条优美，色彩绚丽，是中华艺术的瑰宝。</p>
+        </div>
+        <div class="feature-card" onclick="location.href='article.html'">
+          <h3><i class="fa-solid fa-scroll"></i> 丝路文化</h3>
+          <p>作为丝绸之路的重要节点，敦煌汇聚了东西方文化。佛教、伊斯兰教、基督教等多种宗教在这里交融，形成了独特的文化景观。</p>
+        </div>
+      </section>
+
+      <section class="image-gallery">
+        <h2 style="font-family: 'Dunhuang', 'Ma Shan Zheng', cursive; font-size: 2.5rem; color: #d4a574; text-align: center; margin-bottom: 30px;">敦煌风采</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/img1.webp" alt="敦煌风光">
+            <div class="gallery-caption">敦煌风光</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/img3.webp" alt="莫高窟">
+            <div class="gallery-caption">莫高窟</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/img5.webp" alt="壁画艺术">
+            <div class="gallery-caption">壁画艺术</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/img4.webp" alt="飞天壁画">
+            <div class="gallery-caption">飞天壁画</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 style="font-family: 'Dunhuang', 'Ma Shan Zheng', cursive; font-size: 2.5rem; color: #d4a574; text-align: center; margin-bottom: 30px;">精选文章</h2>
+        <div class="article-preview" onclick="location.href='article.html'">
+          <h3>莫高窟的艺术魅力</h3>
+          <p>探索莫高窟千年壁画背后的故事，感受古代艺术家的智慧与创造力...</p>
+          <span class="read-more">阅读更多 <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+        <div class="article-preview" onclick="location.href='article.html'">
+          <h3>飞天：敦煌艺术的灵魂</h3>
+          <p>飞天形象如何从印度传入中国，并发展成为独特的艺术形式...</p>
+          <span class="read-more">阅读更多 <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+        <div class="article-preview" onclick="location.href='article.html'">
+          <h3>丝绸之路上的敦煌</h3>
+          <p>回顾敦煌在丝绸之路上的重要地位，了解东西方文明交融的历史...</p>
+          <span class="read-more">阅读更多 <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>&copy; 2024 敦煌文化网站 | 探索千年文明，传承丝路精神</p>
+    </footer>
+  </div>
+</body>
+</html>
